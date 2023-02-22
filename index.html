@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="login-page mt-5 shadow">
+                <div class="row">
+                    <div class="col-sm-4 p-3">
+                    <div class="blok-one">
+                        <img src="assets/img/logo.png" alt="" class="logo">
+                        <h5>Welcome to <span class="fw-bold">Kodinger</span></h5>
+                        <p class="text">Before you get started, you must login or register if you don't already have an account.</p>
+                        <!-- <ul class="">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
+                        </ul> -->
+
+                        <div class="tab">
+                            <button class="tablinks" onclick="openTabs(event, 'login')" id="defaultTab">Login</button>
+                            <button class="tablinks" onclick="openTabs(event, 'register')">Register</button>
+                          </div>
+
+                          <!-- Tab content -->
+                            <div id="login" class="tabcontent">
+                                <form action="">
+                                    <div class="mb-2">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" >
+                                      </div>
+                                      <div class="mb-2">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password">
+                                      </div>
+                                      <button class="btn btn-sign mt-3">Sign in</button>
+                                </form>
+                            </div>
+                            
+                            <div id="register" class="tabcontent">
+                                <form action="">
+                                    <div class="mb-2">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="name" >
+                                      </div>
+                                    <div class="mb-2">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="email" >
+                                      </div>
+                                      <div class="mb-2">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="password">
+                                      </div>
+                                      <button class="btn btn-sign mt-3">Sign up</button>
+                                </form>
+                            </div>
+
+                            <p class="cp-page text mt-2 text-align-center">© Pratamadev. Design by <a href="https://codedesign.dev">Nauval</a></p>
+
+                    </div>
+                    </div>
+
+                        <div class="col-lg-8">
+                            <div class="blok-second">
+                                <nav class="navbar navbar-expand-lg bg-transparant">
+                                    <div class="container-fluid">
+                                        <ul class="navbar-nav text-white">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#">Login</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Contact</a>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+                                <p class="copyright text-white container-fluid">
+                                    Photo by <a href="https://unsplash.com/es/@tobiastu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Tobias Tullius</a> on <a href="https://unsplash.com/photos/RhjVGxILcqE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    
+
+<script src="assets/js/jquery-3.6.3.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>

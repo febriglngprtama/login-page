@@ -1,0 +1,118 @@
+.login-page{
+    height: max-content;
+    width: 100%;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.blok-one{
+    margin: 10px;
+}
+
+.blok-second{
+    background-image:url("/assets/img/bg.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.copyright{
+    border-radius: 0 10px 10px 0;
+    float: left;
+    width: fit-content;
+    background-color: rgba(0,0,0, 0.5);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.cp-page{
+    width: fit-content;
+    align-content: center;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    text-decoration: underline;
+}
+.text{
+    font-size:small;
+    color: rgba(0,0,0, 0.6);
+}
+
+.btn{
+    width: 100% !important;
+    box-shadow: 1px 1px 10px#228FA6;
+}
+
+.btn-sign{
+    background-color: #228FA6;
+    color: #fff;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.nav-item a{
+    color: grey !important;
+    background-color: inherit !important;
+    float: left important;
+    border: none important;
+    outline: none important;
+    cursor: pointer important;
+    transition: 0.3s important;
+    margin-right: 5px important;
+}
+
+.nav-item a.active{
+    border-bottom: 3px solid #228FA6 !important;
+    color:black !important;
+}
+
+.nav-item a:hover{
+    color:black !important;
+}
+
+
+ /* Style the tab */
+ .tab {
+    overflow: hidden;
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    color:  rgba(0,0,0, 0.5);
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 5px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: black;
+
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    border-bottom: 3px solid #228FA6;
+    color: black;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  } 
+
